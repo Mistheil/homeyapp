@@ -1,0 +1,62 @@
+.containerWelcome {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  #welcome {
+      text-align: center;
+      font-size: 50px;
+      font-weight: bolder;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      color: #DDDDDD;
+      font-family: "Times New Roman";
+      text-align: center;
+      background-color: #30475E;
+      padding: 10px 20px 10px 20px;
+      border-radius: 20px;
+      border-left-style: double;
+      border-right-style: double;
+      border-bottom-style: double;
+      border-width: 5px;
+      border-color: #3A8891;
+      animation: welcomebanner 5s ease infinite;
+  }
+
+  .welcomeIcon {
+    margin-top: 5px;
+    color: #DDDDDD;
+    animation: welcomebanner 1s ease infinite;
+
+  }
+  
+  @keyframes welcomebanner {
+      0% {
+          color: #0E5E6F;
+      }
+      25% {
+          color: #3A8891;
+      }
+      50% {
+          color: #9ED5C5;
+      }
+      75% {
+          color:  #3A8891;
+      }
+      100% {
+        color: #0E5E6F;
+      }
+  }
+  
+  #welcomeMessage {
+      text-align: justify;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 15px;
+      color: #282c34;
+      margin-top: 10px;
+      margin-bottom: 0px;
+  }

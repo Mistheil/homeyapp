@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,300&display=swap');
+
+
+body {
+	width: 100%;
+	font-family: 'Nunito', sans-serif;
+	overflow: scroll;
+}
+
+.App {
+  text-align: center;
+  
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 5vh;
+  background: rgb(0, 0, 0);
+  color:white
+}
+
+.nav-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  color: white;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+}
+
+.results-container {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.appHeader {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header {
+background-color: #393E46;
+margin: auto;
+text-align: center;
+padding: 5px 0;
+border-style: solid;
+border-color:#9ED5C5;
+}
+
+footer{
+  display: "flex";
+  flex: 1;
+}
+
+#titleHeader {
+  color: #9ED5C5;
+}
+
+footer {
+display: flex;
+position: fixed;
+bottom: 0;
+left: 0;
+background-color: #393E46;
+width: 100%;
+justify-content: space-around;
+align-items: center;
+border-top-style: ridge;
+border-color: #3A8891;
+}
+
+.iconWrapper {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-decoration: none;
+color:#9ED5C5;
+font-family: Georgia, 'Times New Roman', Times, serif;
+padding: 5px 0;
+font-size: 13px;
+}
+
+.icon {
+color:#9ED5C5;
+margin-bottom: 4px;
+font-size: 22px;
+}
+
+.active {
+  color:#DDDDDD;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  height: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #9ED5C5;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9ED5C5;
+}
+::-webkit-scrollbar-track {
+  background: #393E46;
+  box-shadow: inset 0px 0px 0px 0px #F2DEBA;
+}

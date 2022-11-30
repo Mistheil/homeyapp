@@ -1,0 +1,70 @@
+
+a {
+    color: #dddddd;
+}
+  
+  a:hover {
+    color: #3A8891;
+}
+  
+
+#headerProf {
+    text-align: center; 
+    font-size: 65px;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #3A8891;
+    font-family: "Times New Roman";
+    text-align: center;
+}
+
+#headerProf {
+    text-align: center;
+}
+
+#nama {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #DDDDDD;
+    font-weight: bold;
+    text-align: center;
+}
+
+#nim {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    color:#DDDDDD;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Prof {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    overflow: scroll;
+}
+
+.containerProfDetail{
+    
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: #DDDDDD;
+    font-family: "Times New Roman";
+    text-align: center;
+    background-color: #30475E;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    border-left-style: double;
+    border-right-style: double;
+    border-bottom-style: double;
+    border-width: 5px;
+    border-color: #3A8891;
+
+}

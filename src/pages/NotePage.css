@@ -1,0 +1,89 @@
+
+
+
+.notepage {
+	margin: auto;
+    width: 60%;
+    
+}
+
+@media (max-width: 500px) {
+	.app {
+		margin: auto;
+		width: 90%;
+	}
+}
+
+nav {
+	text-align: center;
+	padding: 30px 0;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.form-control,
+button {
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.form-button {
+	background-color: rgb(91, 91, 202);
+	font-weight: bold;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.posts-container {
+    margin-top: 50px;
+    text-align: left;
+}z
+
+.posts-container h2 {
+	margin: 15px 0;
+}
+
+.search-bar {
+	flex: 1;
+	align-items: stretch;
+	background-color:rgb(224, 238, 253);
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.single-post-container{
+	display: flex;
+		flex-direction: column;
+		align-self: center;
+		align-items: left;
+		margin-top: 10px;
+		padding: 10px 10px 10px 10px;
+		background-color:rgb(151, 178, 206);
+		border-radius: 13px;
+		border-style: inset;
+		border-width: 4px;
+		border-color:rgb(10, 51, 95);
+}
+
+.post-card {
+	background-color:rgb(224, 238, 253);
+	padding: 20px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.delete-btn {
+	margin: 10px;
+	background-color: rgb(231, 79, 79);
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 5px;
+	display: inline-block;
+	cursor: pointer;
+}
