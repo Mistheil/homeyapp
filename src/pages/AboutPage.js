@@ -56,7 +56,7 @@ export default function AboutPage() {
             </div>
 
             <div className="containerProfDetail">
-                <a href={`https://github.com/Mistheil/rplbktugas5-kel05`}
+                <a href={`https://github.com/Mistheil/homeyapp`}
                     target="_blank"
                     rel="noreferrer"
                 >
